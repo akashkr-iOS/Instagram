@@ -20,10 +20,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="zGT-vM-Uj9" kind="relationship" relationship="viewControllers" id="1gL-hX-XEE"/>
-                        <segue destination="o9i-xK-ZyY" kind="relationship" relationship="viewControllers" id="pNh-nZ-F3G"/>
-                        <segue destination="Sc8-5H-svm" kind="relationship" relationship="viewControllers" id="gup-Vz-vZc"/>
-                        <segue destination="CGM-Ux-BGB" kind="relationship" relationship="viewControllers" id="GzG-9x-QBK"/>
-                        <segue destination="Is0-uD-Chg" kind="relationship" relationship="viewControllers" id="cMg-2Z-d5K"/>
+                        <segue destination="Sc8-5H-svm" kind="relationship" relationship="viewControllers" id="lU7-Pp-5Xe"/>
+                        <segue destination="CGM-Ux-BGB" kind="relationship" relationship="viewControllers" id="wg2-Fc-koy"/>
+                        <segue destination="o9i-xK-ZyY" kind="relationship" relationship="viewControllers" id="ilZ-RP-Ivd"/>
+                        <segue destination="Is0-uD-Chg" kind="relationship" relationship="viewControllers" id="DTq-gt-ZPl"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O0n-m7-kGn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -37,6 +37,24 @@
                     <view key="view" contentMode="scaleToFill" id="4Gy-Tu-LaD">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3Y-oD-aHl">
+                                <rect key="frame" x="138" y="485" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="9Gz-GS-v4j">
+                                <rect key="frame" x="-10" y="21" width="393" height="335"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PTf-Ws-nf5">
+                                <rect key="frame" x="127" y="364" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="86O-Ft-GSs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -44,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nPQ-ys-O9J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2654" y="963"/>
+            <point key="canvasLocation" x="-2671" y="963"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="yXz-L8-QFT">
@@ -73,6 +91,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="plus" catalog="system" id="vJa-d5-6ie"/>
+                    <navigationItem key="navigationItem" id="0f9-Kp-4dV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RLb-3P-isi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -114,6 +133,7 @@
     <resources>
         <image name="bell" catalog="system" width="125" height="128"/>
         <image name="globe" catalog="system" width="128" height="123"/>
+        <image name="gradient" width="120" height="120"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="person" catalog="system" width="128" height="121"/>
         <image name="plus" catalog="system" width="128" height="113"/>
